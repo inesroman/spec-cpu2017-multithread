@@ -1,0 +1,112 @@
+Threads: 1
+
+ Performance counter stats for './lbm_base 2000 reference.dat 0 0 200_200_260_ldc.of':
+
+     2594644493739      cycles                                                             
+     4377970203645      instructions                     #    1.69  insn per cycle         
+
+    1297.670393340 seconds time elapsed
+
+    1296.639946000 seconds user
+       0.695849000 seconds sys
+
+
+---------------------------------
+Threads: 2
+
+ Performance counter stats for './lbm_base 2000 reference.dat 0 0 200_200_260_ldc.of':
+
+     2790452096222      cycles                                                             
+     4381076850483      instructions                     #    1.57  insn per cycle         
+
+     702.256168140 seconds time elapsed
+
+    1394.568404000 seconds user
+       0.795908000 seconds sys
+
+
+---------------------------------
+Threads: 4
+
+ Performance counter stats for './lbm_base 2000 reference.dat 0 0 200_200_260_ldc.of':
+
+     4068490227375      cycles                                                             
+     4379355695314      instructions                     #    1.08  insn per cycle         
+
+     513.633965870 seconds time elapsed
+
+    2033.224932000 seconds user
+       1.179928000 seconds sys
+
+
+---------------------------------
+Threads: 8
+
+ Performance counter stats for './lbm_base 2000 reference.dat 0 0 200_200_260_ldc.of':
+
+     7883559046160      cycles                                                             
+     4392803060903      instructions                     #    0.56  insn per cycle         
+
+     508.281292350 seconds time elapsed
+
+    3982.886445000 seconds user
+       1.691902000 seconds sys
+
+
+---------------------------------
+Threads: 16
+
+ Performance counter stats for './lbm_base 2000 reference.dat 0 0 200_200_260_ldc.of':
+
+     9107229221479      cycles                                                             
+     4402897057084      instructions                     #    0.48  insn per cycle         
+
+     292.676644770 seconds time elapsed
+
+    4553.288374000 seconds user
+       1.927915000 seconds sys
+
+
+---------------------------------
+Threads: 32
+
+ Performance counter stats for './lbm_base 2000 reference.dat 0 0 200_200_260_ldc.of':
+
+    11814644997559      cycles                                                             
+     4416148417192      instructions                     #    0.37  insn per cycle         
+
+     191.253936620 seconds time elapsed
+
+    5906.404700000 seconds user
+       2.211949000 seconds sys
+
+
+---------------------------------
+Threads: 64
+
+ Performance counter stats for './lbm_base 2000 reference.dat 0 0 200_200_260_ldc.of':
+
+    21251225853650      cycles                                                             
+     4427487793941      instructions                     #    0.21  insn per cycle         
+
+     172.655566230 seconds time elapsed
+
+   10625.816152000 seconds user
+       3.283826000 seconds sys
+
+
+---------------------------------
+Threads: 128
+
+ Performance counter stats for './lbm_base 2000 reference.dat 0 0 200_200_260_ldc.of':
+
+    38109940008541      cycles                                                             
+     4573434516162      instructions                     #    0.12  insn per cycle         
+
+     155.592997470 seconds time elapsed
+
+   19056.540247000 seconds user
+       7.635581000 seconds sys
+
+
+---------------------------------

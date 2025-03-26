@@ -1,0 +1,85 @@
+Threads: 1
+work available for up to 1468006400 / 101711872 => 15 threads
+context size per thread: 99328 KB
+Compressed data 536995164 bytes in length
+
+ Performance counter stats for './xz_base cld.tar.xz 1400 19cf30ae51eddcbefda78dd06014b4b96281456e078ca7c13e1c0c9e6aaea8dff3efb4ad6b0456697718cede6bd5454852652806a657bb56e07d61128434b474 536995164 539938872 8':
+
+     3600641821442      cycles                                                             
+     3337313463301      instructions                     #    0.93  insn per cycle         
+
+    1800.749455870 seconds time elapsed
+
+    1798.193679000 seconds user
+       2.127590000 seconds sys
+
+
+---------------------------------
+Threads: 2
+work available for up to 1468006400 / 101711872 => 15 threads
+context size per thread: 99328 KB
+Compressed data 536995164 bytes in length
+
+ Performance counter stats for './xz_base cld.tar.xz 1400 19cf30ae51eddcbefda78dd06014b4b96281456e078ca7c13e1c0c9e6aaea8dff3efb4ad6b0456697718cede6bd5454852652806a657bb56e07d61128434b474 536995164 539938872 8':
+
+     3948394944439      cycles                                                             
+     3335116957387      instructions                     #    0.84  insn per cycle         
+
+    1065.586273890 seconds time elapsed
+
+    1972.502541000 seconds user
+       1.763762000 seconds sys
+
+
+---------------------------------
+Threads: 4
+work available for up to 1468006400 / 101711872 => 15 threads
+context size per thread: 99328 KB
+Compressed data 536995164 bytes in length
+
+ Performance counter stats for './xz_base cld.tar.xz 1400 19cf30ae51eddcbefda78dd06014b4b96281456e078ca7c13e1c0c9e6aaea8dff3efb4ad6b0456697718cede6bd5454852652806a657bb56e07d61128434b474 536995164 539938872 8':
+
+     4225407911476      cycles                                                             
+     3334203125023      instructions                     #    0.79  insn per cycle         
+
+     653.162543240 seconds time elapsed
+
+    2111.302664000 seconds user
+       1.835852000 seconds sys
+
+
+---------------------------------
+Threads: 8
+work available for up to 1468006400 / 101711872 => 15 threads
+context size per thread: 99328 KB
+Compressed data 536995164 bytes in length
+
+ Performance counter stats for './xz_base cld.tar.xz 1400 19cf30ae51eddcbefda78dd06014b4b96281456e078ca7c13e1c0c9e6aaea8dff3efb4ad6b0456697718cede6bd5454852652806a657bb56e07d61128434b474 536995164 539938872 8':
+
+     4225896756000      cycles                                                             
+     3333235660981      instructions                     #    0.79  insn per cycle         
+
+     375.098836340 seconds time elapsed
+
+    2125.842068000 seconds user
+       1.763895000 seconds sys
+
+
+---------------------------------
+Threads: 15
+work available for up to 1468006400 / 101711872 => 15 threads
+context size per thread: 99328 KB
+Compressed data 536995164 bytes in length
+
+ Performance counter stats for './xz_base cld.tar.xz 1400 19cf30ae51eddcbefda78dd06014b4b96281456e078ca7c13e1c0c9e6aaea8dff3efb4ad6b0456697718cede6bd5454852652806a657bb56e07d61128434b474 536995164 539938872 8':
+
+     4278316460089      cycles                                                             
+     3332971679622      instructions                     #    0.78  insn per cycle         
+
+     230.713765640 seconds time elapsed
+
+    2137.844978000 seconds user
+       1.823949000 seconds sys
+
+
+---------------------------------

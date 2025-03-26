@@ -1,0 +1,112 @@
+Threads: 1
+
+ Performance counter stats for './imagick_base -limit disk 0 refspeed_input.tga -resize 817% -rotate -2.76 -shave 540x375 -alpha remove -auto-level -contrast-stretch 1x1% -colorspace Lab -channel R -equalize +channel -colorspace sRGB -define histogram:unique-colors=false -adaptive-blur 0x5 -despeckle -auto-gamma -adaptive-sharpen 55 -enhance -brightness-contrast 10x10 -resize 30% refspeed_output.tga':
+
+    17273690998681      cycles                                                             
+    71015525261039      instructions                     #    4.11  insn per cycle         
+
+    8638.772968510 seconds time elapsed
+
+    8630.465426000 seconds user
+       6.530902000 seconds sys
+
+
+---------------------------------
+Threads: 2
+
+ Performance counter stats for './imagick_base -limit disk 0 refspeed_input.tga -resize 817% -rotate -2.76 -shave 540x375 -alpha remove -auto-level -contrast-stretch 1x1% -colorspace Lab -channel R -equalize +channel -colorspace sRGB -define histogram:unique-colors=false -adaptive-blur 0x5 -despeckle -auto-gamma -adaptive-sharpen 55 -enhance -brightness-contrast 10x10 -resize 30% refspeed_output.tga':
+
+    17286178593889      cycles                                                             
+    71003689842336      instructions                     #    4.11  insn per cycle         
+
+    4331.996290660 seconds time elapsed
+
+    8638.634612000 seconds user
+       4.615603000 seconds sys
+
+
+---------------------------------
+Threads: 4
+
+ Performance counter stats for './imagick_base -limit disk 0 refspeed_input.tga -resize 817% -rotate -2.76 -shave 540x375 -alpha remove -auto-level -contrast-stretch 1x1% -colorspace Lab -channel R -equalize +channel -colorspace sRGB -define histogram:unique-colors=false -adaptive-blur 0x5 -despeckle -auto-gamma -adaptive-sharpen 55 -enhance -brightness-contrast 10x10 -resize 30% refspeed_output.tga':
+
+    17395226456812      cycles                                                             
+    70997487950797      instructions                     #    4.08  insn per cycle         
+
+    2193.629145690 seconds time elapsed
+
+    8693.297147000 seconds user
+       4.923762000 seconds sys
+
+
+---------------------------------
+Threads: 8
+
+ Performance counter stats for './imagick_base -limit disk 0 refspeed_input.tga -resize 817% -rotate -2.76 -shave 540x375 -alpha remove -auto-level -contrast-stretch 1x1% -colorspace Lab -channel R -equalize +channel -colorspace sRGB -define histogram:unique-colors=false -adaptive-blur 0x5 -despeckle -auto-gamma -adaptive-sharpen 55 -enhance -brightness-contrast 10x10 -resize 30% refspeed_output.tga':
+
+    17615486991895      cycles                                                             
+    70994933122148      instructions                     #    4.03  insn per cycle         
+
+    1138.670964440 seconds time elapsed
+
+    8906.477398000 seconds user
+       6.951785000 seconds sys
+
+
+---------------------------------
+Threads: 16
+
+ Performance counter stats for './imagick_base -limit disk 0 refspeed_input.tga -resize 817% -rotate -2.76 -shave 540x375 -alpha remove -auto-level -contrast-stretch 1x1% -colorspace Lab -channel R -equalize +channel -colorspace sRGB -define histogram:unique-colors=false -adaptive-blur 0x5 -despeckle -auto-gamma -adaptive-sharpen 55 -enhance -brightness-contrast 10x10 -resize 30% refspeed_output.tga':
+
+    17693893003310      cycles                                                             
+    70993842036426      instructions                     #    4.01  insn per cycle         
+
+     575.601288740 seconds time elapsed
+
+    8842.274976000 seconds user
+       7.015735000 seconds sys
+
+
+---------------------------------
+Threads: 32
+
+ Performance counter stats for './imagick_base -limit disk 0 refspeed_input.tga -resize 817% -rotate -2.76 -shave 540x375 -alpha remove -auto-level -contrast-stretch 1x1% -colorspace Lab -channel R -equalize +channel -colorspace sRGB -define histogram:unique-colors=false -adaptive-blur 0x5 -despeckle -auto-gamma -adaptive-sharpen 55 -enhance -brightness-contrast 10x10 -resize 30% refspeed_output.tga':
+
+    17890923818209      cycles                                                             
+    70994178128006      instructions                     #    3.97  insn per cycle         
+
+     301.713363130 seconds time elapsed
+
+    8938.489382000 seconds user
+       9.983773000 seconds sys
+
+
+---------------------------------
+Threads: 64
+
+ Performance counter stats for './imagick_base -limit disk 0 refspeed_input.tga -resize 817% -rotate -2.76 -shave 540x375 -alpha remove -auto-level -contrast-stretch 1x1% -colorspace Lab -channel R -equalize +channel -colorspace sRGB -define histogram:unique-colors=false -adaptive-blur 0x5 -despeckle -auto-gamma -adaptive-sharpen 55 -enhance -brightness-contrast 10x10 -resize 30% refspeed_output.tga':
+
+    17935349094491      cycles                                                             
+    70996418897568      instructions                     #    3.96  insn per cycle         
+
+     162.641235780 seconds time elapsed
+
+    8955.512902000 seconds user
+      15.895632000 seconds sys
+
+
+---------------------------------
+Threads: 128
+
+ Performance counter stats for './imagick_base -limit disk 0 refspeed_input.tga -resize 817% -rotate -2.76 -shave 540x375 -alpha remove -auto-level -contrast-stretch 1x1% -colorspace Lab -channel R -equalize +channel -colorspace sRGB -define histogram:unique-colors=false -adaptive-blur 0x5 -despeckle -auto-gamma -adaptive-sharpen 55 -enhance -brightness-contrast 10x10 -resize 30% refspeed_output.tga':
+
+    34126410177877      cycles                                                             
+    71011590795962      instructions                     #    2.08  insn per cycle         
+
+     156.807416600 seconds time elapsed
+
+   17024.812872000 seconds user
+      43.950948000 seconds sys
+
+
+---------------------------------

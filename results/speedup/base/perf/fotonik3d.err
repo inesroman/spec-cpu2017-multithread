@@ -1,0 +1,112 @@
+Threads: 1
+
+ Performance counter stats for './fotonik3d_base':
+
+     2472112463717      cycles                                                             
+     5285359416613      instructions                     #    2.14  insn per cycle         
+
+    1236.390897280 seconds time elapsed
+
+    1234.003001000 seconds user
+       2.067555000 seconds sys
+
+
+---------------------------------
+Threads: 2
+
+ Performance counter stats for './fotonik3d_base':
+
+     2628598642711      cycles                                                             
+     5284981717522      instructions                     #    2.01  insn per cycle         
+
+     682.864496890 seconds time elapsed
+
+    1312.686482000 seconds user
+       1.927780000 seconds sys
+
+
+---------------------------------
+Threads: 4
+
+ Performance counter stats for './fotonik3d_base':
+
+     3565454800663      cycles                                                             
+     5286974621620      instructions                     #    1.48  insn per cycle         
+
+     485.181057550 seconds time elapsed
+
+    1780.471838000 seconds user
+       2.575768000 seconds sys
+
+
+---------------------------------
+Threads: 8
+
+ Performance counter stats for './fotonik3d_base':
+
+     6076941223876      cycles                                                             
+     5297744059694      instructions                     #    0.87  insn per cycle         
+
+     429.358510300 seconds time elapsed
+
+    3071.382704000 seconds user
+       4.327620000 seconds sys
+
+
+---------------------------------
+Threads: 16
+
+ Performance counter stats for './fotonik3d_base':
+
+     6687289738924      cycles                                                             
+     5303539654194      instructions                     #    0.79  insn per cycle         
+
+     257.446657410 seconds time elapsed
+
+    3339.429951000 seconds user
+       4.591650000 seconds sys
+
+
+---------------------------------
+Threads: 32
+
+ Performance counter stats for './fotonik3d_base':
+
+     8761566636507      cycles                                                             
+     5357927843095      instructions                     #    0.61  insn per cycle         
+
+     186.768669550 seconds time elapsed
+
+    4376.957403000 seconds user
+       5.623791000 seconds sys
+
+
+---------------------------------
+Threads: 64
+
+ Performance counter stats for './fotonik3d_base':
+
+    15264559553104      cycles                                                             
+     5465765952848      instructions                     #    0.36  insn per cycle         
+
+     170.861342560 seconds time elapsed
+
+    7626.332187000 seconds user
+       8.707717000 seconds sys
+
+
+---------------------------------
+Threads: 128
+
+ Performance counter stats for './fotonik3d_base':
+
+    31131276409482      cycles                                                             
+     5712954340169      instructions                     #    0.18  insn per cycle         
+
+     174.172311820 seconds time elapsed
+
+   15544.387569000 seconds user
+      24.006507000 seconds sys
+
+
+---------------------------------

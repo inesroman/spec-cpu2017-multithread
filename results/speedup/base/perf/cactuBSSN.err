@@ -1,0 +1,112 @@
+Threads: 1
+
+ Performance counter stats for './cactuBSSN_base spec_ref.par':
+
+     7038294365718      cycles                                                             
+     9138038480285      instructions                     #    1.30  insn per cycle         
+
+    3520.034453950 seconds time elapsed
+
+    3516.800414000 seconds user
+       2.383531000 seconds sys
+
+
+---------------------------------
+Threads: 2
+
+ Performance counter stats for './cactuBSSN_base spec_ref.par':
+
+     7086630286351      cycles                                                             
+     9135396548153      instructions                     #    1.29  insn per cycle         
+
+    1786.221133830 seconds time elapsed
+
+    3541.022843000 seconds user
+       2.423741000 seconds sys
+
+
+---------------------------------
+Threads: 4
+
+ Performance counter stats for './cactuBSSN_base spec_ref.par':
+
+     7280287257543      cycles                                                             
+     9136770952509      instructions                     #    1.26  insn per cycle         
+
+     927.214367200 seconds time elapsed
+
+    3638.930398000 seconds user
+       1.924024000 seconds sys
+
+
+---------------------------------
+Threads: 8
+
+ Performance counter stats for './cactuBSSN_base spec_ref.par':
+
+     7581895447167      cycles                                                             
+     9141412639134      instructions                     #    1.21  insn per cycle         
+
+     499.073731130 seconds time elapsed
+
+    3837.919284000 seconds user
+       2.239875000 seconds sys
+
+
+---------------------------------
+Threads: 16
+
+ Performance counter stats for './cactuBSSN_base spec_ref.par':
+
+     7820098080658      cycles                                                             
+     9155557176198      instructions                     #    1.17  insn per cycle         
+
+     268.905173190 seconds time elapsed
+
+    3908.551133000 seconds user
+       2.719818000 seconds sys
+
+
+---------------------------------
+Threads: 32
+
+ Performance counter stats for './cactuBSSN_base spec_ref.par':
+
+     8095211527745      cycles                                                             
+     9168578834912      instructions                     #    1.13  insn per cycle         
+
+     147.513174580 seconds time elapsed
+
+    4044.290867000 seconds user
+       4.632424000 seconds sys
+
+
+---------------------------------
+Threads: 64
+
+ Performance counter stats for './cactuBSSN_base spec_ref.par':
+
+     9777115386154      cycles                                                             
+     9213433621607      instructions                     #    0.94  insn per cycle         
+
+      97.550848110 seconds time elapsed
+
+    4884.810705000 seconds user
+       6.610444000 seconds sys
+
+
+---------------------------------
+Threads: 128
+
+ Performance counter stats for './cactuBSSN_base spec_ref.par':
+
+    17854452972679      cycles                                                             
+     9377576082808      instructions                     #    0.53  insn per cycle         
+
+      92.271068980 seconds time elapsed
+
+    8904.995016000 seconds user
+      26.581895000 seconds sys
+
+
+---------------------------------

@@ -1,0 +1,112 @@
+Threads: 1
+
+ Performance counter stats for './wrf_base':
+
+     4339109265735      cycles                                                             
+     8169111541509      instructions                     #    1.88  insn per cycle         
+
+    2170.182557060 seconds time elapsed
+
+    2113.899218000 seconds user
+      55.613351000 seconds sys
+
+
+---------------------------------
+Threads: 2
+
+ Performance counter stats for './wrf_base':
+
+     4553633133956      cycles                                                             
+     8170653381289      instructions                     #    1.79  insn per cycle         
+
+    1139.448235600 seconds time elapsed
+
+    2270.322483000 seconds user
+       6.551118000 seconds sys
+
+
+---------------------------------
+Threads: 4
+
+ Performance counter stats for './wrf_base':
+
+     5183719505937      cycles                                                             
+     8302709953697      instructions                     #    1.60  insn per cycle         
+
+     648.350045520 seconds time elapsed
+
+    2541.557676000 seconds user
+      50.721647000 seconds sys
+
+
+---------------------------------
+Threads: 8
+
+ Performance counter stats for './wrf_base':
+
+     6582849562381      cycles                                                             
+     8458819278851      instructions                     #    1.28  insn per cycle         
+
+     417.045776100 seconds time elapsed
+
+    3257.620376000 seconds user
+      76.741130000 seconds sys
+
+
+---------------------------------
+Threads: 16
+
+ Performance counter stats for './wrf_base':
+
+     7974974464300      cycles                                                             
+     8735820658455      instructions                     #    1.10  insn per cycle         
+
+     249.575485900 seconds time elapsed
+
+    3867.919235000 seconds user
+     121.216933000 seconds sys
+
+
+---------------------------------
+Threads: 32
+
+ Performance counter stats for './wrf_base':
+
+    11663565008578      cycles                                                             
+     9279929964937      instructions                     #    0.80  insn per cycle         
+
+     182.603819290 seconds time elapsed
+
+    5601.504873000 seconds user
+     233.246042000 seconds sys
+
+
+---------------------------------
+Threads: 64
+
+ Performance counter stats for './wrf_base':
+
+    21624335306351      cycles                                                             
+    11799700178279      instructions                     #    0.55  insn per cycle         
+
+     169.290142610 seconds time elapsed
+
+   10228.730920000 seconds user
+     588.038727000 seconds sys
+
+
+---------------------------------
+Threads: 128
+
+ Performance counter stats for './wrf_base':
+
+    60400906306443      cycles                                                             
+    14716521707040      instructions                     #    0.24  insn per cycle         
+
+     236.376442370 seconds time elapsed
+
+   27576.524332000 seconds user
+    2634.701789000 seconds sys
+
+
+---------------------------------
