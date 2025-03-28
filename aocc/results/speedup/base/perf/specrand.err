@@ -1,0 +1,112 @@
+Threads: 1
+
+ Performance counter stats for './specrand 1255432124 234923':
+
+         207537781      cycles                                                             
+         497868355      instructions                     #    2.40  insn per cycle         
+
+       0.105240840 seconds time elapsed
+
+       0.093007000 seconds user
+       0.012131000 seconds sys
+
+
+---------------------------------
+Threads: 2
+
+ Performance counter stats for './specrand 1255432124 234923':
+
+         206064486      cycles                                                             
+         497698786      instructions                     #    2.42  insn per cycle         
+
+       0.110347440 seconds time elapsed
+
+       0.086902000 seconds user
+       0.023700000 seconds sys
+
+
+---------------------------------
+Threads: 4
+
+ Performance counter stats for './specrand 1255432124 234923':
+
+         206379986      cycles                                                             
+         497689112      instructions                     #    2.41  insn per cycle         
+
+       0.103921170 seconds time elapsed
+
+       0.076020000 seconds user
+       0.028007000 seconds sys
+
+
+---------------------------------
+Threads: 8
+
+ Performance counter stats for './specrand 1255432124 234923':
+
+         206774948      cycles                                                             
+         497729548      instructions                     #    2.41  insn per cycle         
+
+       0.104091530 seconds time elapsed
+
+       0.084277000 seconds user
+       0.020065000 seconds sys
+
+
+---------------------------------
+Threads: 16
+
+ Performance counter stats for './specrand 1255432124 234923':
+
+         206856935      cycles                                                             
+         497692227      instructions                     #    2.41  insn per cycle         
+
+       0.104195790 seconds time elapsed
+
+       0.092382000 seconds user
+       0.012049000 seconds sys
+
+
+---------------------------------
+Threads: 32
+
+ Performance counter stats for './specrand 1255432124 234923':
+
+         206996754      cycles                                                             
+         497710412      instructions                     #    2.40  insn per cycle         
+
+       0.104214900 seconds time elapsed
+
+       0.104464000 seconds user
+       0.000000000 seconds sys
+
+
+---------------------------------
+Threads: 64
+
+ Performance counter stats for './specrand 1255432124 234923':
+
+         207293067      cycles                                                             
+         497761734      instructions                     #    2.40  insn per cycle         
+
+       0.104595060 seconds time elapsed
+
+       0.092745000 seconds user
+       0.012097000 seconds sys
+
+
+---------------------------------
+Threads: 128
+
+ Performance counter stats for './specrand 1255432124 234923':
+
+         206179629      cycles                                                             
+         497674235      instructions                     #    2.41  insn per cycle         
+
+       0.103806720 seconds time elapsed
+
+       0.096042000 seconds user
+       0.008003000 seconds sys
+
+
+---------------------------------

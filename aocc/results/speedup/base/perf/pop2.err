@@ -1,0 +1,112 @@
+Threads: 1
+
+ Performance counter stats for './pop2':
+
+     4018119426252      cycles                                                             
+     8001053935836      instructions                     #    1.99  insn per cycle         
+
+    2010.263938170 seconds time elapsed
+
+    2008.571447000 seconds user
+       1.149745000 seconds sys
+
+
+---------------------------------
+Threads: 2
+
+ Performance counter stats for './pop2':
+
+     4216386759709      cycles                                                             
+     8093584186870      instructions                     #    1.92  insn per cycle         
+
+    1055.010558280 seconds time elapsed
+
+    2102.535477000 seconds user
+       6.671008000 seconds sys
+
+
+---------------------------------
+Threads: 4
+
+ Performance counter stats for './pop2':
+
+     4721950481779      cycles                                                             
+     8389757436259      instructions                     #    1.78  insn per cycle         
+
+     590.823933420 seconds time elapsed
+
+    2341.299679000 seconds user
+      20.318573000 seconds sys
+
+
+---------------------------------
+Threads: 8
+
+ Performance counter stats for './pop2':
+
+     5799342667123      cycles                                                             
+     9016625304363      instructions                     #    1.55  insn per cycle         
+
+     367.498537910 seconds time elapsed
+
+    2886.862092000 seconds user
+      49.154469000 seconds sys
+
+
+---------------------------------
+Threads: 16
+
+ Performance counter stats for './pop2':
+
+     7669000446161      cycles                                                             
+    10191124098899      instructions                     #    1.33  insn per cycle         
+
+     240.263839180 seconds time elapsed
+
+    3742.992658000 seconds user
+      91.883750000 seconds sys
+
+
+---------------------------------
+Threads: 32
+
+ Performance counter stats for './pop2':
+
+    12795632110932      cycles                                                             
+    13195483303635      instructions                     #    1.03  insn per cycle         
+
+     200.578617670 seconds time elapsed
+
+    6205.130199000 seconds user
+     193.749299000 seconds sys
+
+
+---------------------------------
+Threads: 64
+
+ Performance counter stats for './pop2':
+
+    26242440983988      cycles                                                             
+    20876461042257      instructions                     #    0.80  insn per cycle         
+
+     205.767112530 seconds time elapsed
+
+   12483.368106000 seconds user
+     645.028771000 seconds sys
+
+
+---------------------------------
+Threads: 128
+
+ Performance counter stats for './pop2':
+
+    58690361767503      cycles                                                             
+    41187466328380      instructions                     #    0.70  insn per cycle         
+
+     230.137420280 seconds time elapsed
+
+   27477.905526000 seconds user
+    1874.781069000 seconds sys
+
+
+---------------------------------

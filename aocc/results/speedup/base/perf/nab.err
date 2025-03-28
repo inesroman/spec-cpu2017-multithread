@@ -1,0 +1,112 @@
+Threads: 1
+
+ Performance counter stats for './nab 3j1n 20140317 220':
+
+     7680155638119      cycles                                                             
+    13522860212833      instructions                     #    1.76  insn per cycle         
+
+    3840.960623250 seconds time elapsed
+
+    3836.841102000 seconds user
+       3.271445000 seconds sys
+
+
+---------------------------------
+Threads: 2
+
+ Performance counter stats for './nab 3j1n 20140317 220':
+
+     7722900031271      cycles                                                             
+    13548580228535      instructions                     #    1.75  insn per cycle         
+
+    1931.434596980 seconds time elapsed
+
+    3857.845526000 seconds user
+       3.663625000 seconds sys
+
+
+---------------------------------
+Threads: 4
+
+ Performance counter stats for './nab 3j1n 20140317 220':
+
+     7795424127342      cycles                                                             
+    13600978242371      instructions                     #    1.74  insn per cycle         
+
+     975.970201130 seconds time elapsed
+
+    3895.847025000 seconds user
+       5.371651000 seconds sys
+
+
+---------------------------------
+Threads: 8
+
+ Performance counter stats for './nab 3j1n 20140317 220':
+
+     7936240152655      cycles                                                             
+    13709369495345      instructions                     #    1.73  insn per cycle         
+
+     503.407730100 seconds time elapsed
+
+    4009.910453000 seconds user
+       9.783791000 seconds sys
+
+
+---------------------------------
+Threads: 16
+
+ Performance counter stats for './nab 3j1n 20140317 220':
+
+     8249358408363      cycles                                                             
+    13935045459549      instructions                     #    1.69  insn per cycle         
+
+     258.812346770 seconds time elapsed
+
+    4102.951688000 seconds user
+      23.077235000 seconds sys
+
+
+---------------------------------
+Threads: 32
+
+ Performance counter stats for './nab 3j1n 20140317 220':
+
+     8868804206999      cycles                                                             
+    14389390145770      instructions                     #    1.62  insn per cycle         
+
+     140.049713590 seconds time elapsed
+
+    4395.792977000 seconds user
+      45.160106000 seconds sys
+
+
+---------------------------------
+Threads: 64
+
+ Performance counter stats for './nab 3j1n 20140317 220':
+
+    10089952622859      cycles                                                             
+    15286968729364      instructions                     #    1.52  insn per cycle         
+
+      80.457518350 seconds time elapsed
+
+    4961.770918000 seconds user
+      91.202301000 seconds sys
+
+
+---------------------------------
+Threads: 128
+
+ Performance counter stats for './nab 3j1n 20140317 220':
+
+    16680861560796      cycles                                                             
+    17286044837110      instructions                     #    1.04  insn per cycle         
+
+      66.905627470 seconds time elapsed
+
+    8133.854914000 seconds user
+     217.985471000 seconds sys
+
+
+---------------------------------
