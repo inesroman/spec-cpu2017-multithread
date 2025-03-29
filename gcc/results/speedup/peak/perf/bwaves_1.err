@@ -1,0 +1,112 @@
+Threads: 1
+
+ Performance counter stats for './bwaves_base bwaves_1':
+
+     4093683877393      cycles                                                             
+     8985207405858      instructions                     #    2.19  insn per cycle         
+
+    2047.306593850 seconds time elapsed
+
+    2035.527746000 seconds user
+      11.269651000 seconds sys
+
+
+---------------------------------
+Threads: 2
+
+ Performance counter stats for './bwaves_base bwaves_1':
+
+     4114253962811      cycles                                                             
+     8984147083863      instructions                     #    2.18  insn per cycle         
+
+    1030.056401200 seconds time elapsed
+
+    2044.949302000 seconds user
+      12.269943000 seconds sys
+
+
+---------------------------------
+Threads: 4
+
+ Performance counter stats for './bwaves_base bwaves_1':
+
+     4258613964782      cycles                                                             
+     8984781162767      instructions                     #    2.11  insn per cycle         
+
+     534.112128740 seconds time elapsed
+
+    2111.241581000 seconds user
+      19.230046000 seconds sys
+
+
+---------------------------------
+Threads: 8
+
+ Performance counter stats for './bwaves_base bwaves_1':
+
+     5873848289115      cycles                                                             
+     8992476692859      instructions                     #    1.53  insn per cycle         
+
+     373.835965070 seconds time elapsed
+
+    2941.225990000 seconds user
+      31.689435000 seconds sys
+
+
+---------------------------------
+Threads: 16
+
+ Performance counter stats for './bwaves_base bwaves_1':
+
+     6296881580620      cycles                                                             
+     9000074542584      instructions                     #    1.43  insn per cycle         
+
+     198.651177940 seconds time elapsed
+
+    3114.660588000 seconds user
+      33.970741000 seconds sys
+
+
+---------------------------------
+Threads: 32
+
+ Performance counter stats for './bwaves_base bwaves_1':
+
+     7288400707652      cycles                                                             
+     9017965755017      instructions                     #    1.24  insn per cycle         
+
+     115.535653020 seconds time elapsed
+
+    3602.781390000 seconds user
+      41.999363000 seconds sys
+
+
+---------------------------------
+Threads: 64
+
+ Performance counter stats for './bwaves_base bwaves_1':
+
+    11527670303781      cycles                                                             
+     9052072096066      instructions                     #    0.79  insn per cycle         
+
+      91.626400360 seconds time elapsed
+
+    5694.651655000 seconds user
+      70.710565000 seconds sys
+
+
+---------------------------------
+Threads: 128
+
+ Performance counter stats for './bwaves_base bwaves_1':
+
+    23900794307431      cycles                                                             
+     9192512163028      instructions                     #    0.38  insn per cycle         
+
+      95.532464080 seconds time elapsed
+
+   11707.065954000 seconds user
+     245.050820000 seconds sys
+
+
+---------------------------------

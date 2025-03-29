@@ -1,0 +1,56 @@
+Threads: 1
+
+ Performance counter stats for './sroms_base':
+
+     5894955057720      cycles                                                             
+     7823986115493      instructions                     #    1.33  insn per cycle         
+
+    2948.248070120 seconds time elapsed
+
+    2238.648464000 seconds user
+     708.759514000 seconds sys
+
+
+---------------------------------
+Threads: 2
+
+ Performance counter stats for './sroms_base':
+
+     5752940588575      cycles                                                             
+     7411182451053      instructions                     #    1.29  insn per cycle         
+
+    1615.298929590 seconds time elapsed
+
+    2497.645519000 seconds user
+     379.949726000 seconds sys
+
+
+---------------------------------
+Threads: 4
+
+ Performance counter stats for './sroms_base':
+
+     8209662505458      cycles                                                             
+     7370367616662      instructions                     #    0.90  insn per cycle         
+
+    1111.989387100 seconds time elapsed
+
+    3700.981802000 seconds user
+     409.493807000 seconds sys
+
+
+---------------------------------
+Threads: 8
+
+ Performance counter stats for './sroms_base':
+
+    14100053746136      cycles                                                             
+     7482251220700      instructions                     #    0.53  insn per cycle         
+
+     942.131228810 seconds time elapsed
+
+    6491.653002000 seconds user
+     658.971642000 seconds sys
+
+
+---------------------------------

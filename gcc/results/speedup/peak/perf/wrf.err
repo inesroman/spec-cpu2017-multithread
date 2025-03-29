@@ -1,0 +1,112 @@
+Threads: 1
+
+ Performance counter stats for './wrf_peak':
+
+     3990543206965      cycles                                                             
+     7595043725587      instructions                     #    1.90  insn per cycle         
+
+    1995.900097160 seconds time elapsed
+
+    1991.283827000 seconds user
+       3.966995000 seconds sys
+
+
+---------------------------------
+Threads: 2
+
+ Performance counter stats for './wrf_peak':
+
+     4312599984115      cycles                                                             
+     7649765162237      instructions                     #    1.77  insn per cycle         
+
+    1079.331940700 seconds time elapsed
+
+    2152.552537000 seconds user
+       3.859599000 seconds sys
+
+
+---------------------------------
+Threads: 4
+
+ Performance counter stats for './wrf_peak':
+
+     4924846183569      cycles                                                             
+     7781352040592      instructions                     #    1.58  insn per cycle         
+
+     616.347220520 seconds time elapsed
+
+    2413.469149000 seconds user
+      50.802298000 seconds sys
+
+
+---------------------------------
+Threads: 8
+
+ Performance counter stats for './wrf_peak':
+
+     6322215696743      cycles                                                             
+     7935462285345      instructions                     #    1.26  insn per cycle         
+
+     400.568807020 seconds time elapsed
+
+    3131.548027000 seconds user
+      70.905660000 seconds sys
+
+
+---------------------------------
+Threads: 16
+
+ Performance counter stats for './wrf_peak':
+
+     7785181280594      cycles                                                             
+     8211723962853      instructions                     #    1.05  insn per cycle         
+
+     243.666679280 seconds time elapsed
+
+    3770.013116000 seconds user
+     124.554486000 seconds sys
+
+
+---------------------------------
+Threads: 32
+
+ Performance counter stats for './wrf_peak':
+
+    11555851234628      cycles                                                             
+     8765243434442      instructions                     #    0.76  insn per cycle         
+
+     180.917953670 seconds time elapsed
+
+    5554.516444000 seconds user
+     225.840013000 seconds sys
+
+
+---------------------------------
+Threads: 64
+
+ Performance counter stats for './wrf_peak':
+
+    18535675764749      cycles                                                             
+    10984715647977      instructions                     #    0.59  insn per cycle         
+
+     145.173457000 seconds time elapsed
+
+    9214.312909000 seconds user
+      58.942291000 seconds sys
+
+
+---------------------------------
+Threads: 128
+
+ Performance counter stats for './wrf_peak':
+
+    59257302964289      cycles                                                             
+    14235297173475      instructions                     #    0.24  insn per cycle         
+
+     231.921868870 seconds time elapsed
+
+   27027.338858000 seconds user
+    2614.067410000 seconds sys
+
+
+---------------------------------

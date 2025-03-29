@@ -1,0 +1,136 @@
+Threads: 1
+work available for up to 6965690368 / 13631488 => 512 threads
+context size per thread: 13312 KB
+Compressed data 1111795472 bytes in length
+
+ Performance counter stats for './xz_peak cpu2006docs.tar.xz 6643 055ce243071129412e9dd0b3b69a21654033a9b723d874b2015c774fac1553d9713be561ca86f74e4f16f22e664fc17a79f30caa5ad2c04fbc447549c2810fae 1036078272 11795472 4':
+
+     2932771649957      cycles                                                             
+     4908030448629      instructions                     #    1.67  insn per cycle         
+
+    1466.699748460 seconds time elapsed
+
+    1459.333250000 seconds user
+       7.022485000 seconds sys
+
+
+---------------------------------
+Threads: 2
+work available for up to 6965690368 / 13631488 => 512 threads
+context size per thread: 13312 KB
+Compressed data 1111795472 bytes in length
+
+ Performance counter stats for './xz_peak cpu2006docs.tar.xz 6643 055ce243071129412e9dd0b3b69a21654033a9b723d874b2015c774fac1553d9713be561ca86f74e4f16f22e664fc17a79f30caa5ad2c04fbc447549c2810fae 1036078272 11795472 4':
+
+     3073897380001      cycles                                                             
+     4905450171516      instructions                     #    1.60  insn per cycle         
+
+     889.649740060 seconds time elapsed
+
+    1531.243979000 seconds user
+       5.839267000 seconds sys
+
+
+---------------------------------
+Threads: 4
+work available for up to 6965690368 / 13631488 => 512 threads
+context size per thread: 13312 KB
+Compressed data 1111795472 bytes in length
+
+ Performance counter stats for './xz_peak cpu2006docs.tar.xz 6643 055ce243071129412e9dd0b3b69a21654033a9b723d874b2015c774fac1553d9713be561ca86f74e4f16f22e664fc17a79f30caa5ad2c04fbc447549c2810fae 1036078272 11795472 4':
+
+     3284933044257      cycles                                                             
+     4905143448515      instructions                     #    1.49  insn per cycle         
+
+     558.909097140 seconds time elapsed
+
+    1636.484294000 seconds user
+       6.411609000 seconds sys
+
+
+---------------------------------
+Threads: 8
+work available for up to 6965690368 / 13631488 => 512 threads
+context size per thread: 13312 KB
+Compressed data 1111795472 bytes in length
+
+ Performance counter stats for './xz_peak cpu2006docs.tar.xz 6643 055ce243071129412e9dd0b3b69a21654033a9b723d874b2015c774fac1553d9713be561ca86f74e4f16f22e664fc17a79f30caa5ad2c04fbc447549c2810fae 1036078272 11795472 4':
+
+     3277553478414      cycles                                                             
+     4904781497938      instructions                     #    1.50  insn per cycle         
+
+     366.792743110 seconds time elapsed
+
+    1649.366355000 seconds user
+       7.723411000 seconds sys
+
+
+---------------------------------
+Threads: 16
+work available for up to 6965690368 / 13631488 => 512 threads
+context size per thread: 13312 KB
+Compressed data 1111795472 bytes in length
+
+ Performance counter stats for './xz_peak cpu2006docs.tar.xz 6643 055ce243071129412e9dd0b3b69a21654033a9b723d874b2015c774fac1553d9713be561ca86f74e4f16f22e664fc17a79f30caa5ad2c04fbc447549c2810fae 1036078272 11795472 4':
+
+     3293140814132      cycles                                                             
+     4905396863765      instructions                     #    1.49  insn per cycle         
+
+     268.290011860 seconds time elapsed
+
+    1640.131177000 seconds user
+       7.520638000 seconds sys
+
+
+---------------------------------
+Threads: 32
+work available for up to 6965690368 / 13631488 => 512 threads
+context size per thread: 13312 KB
+Compressed data 1111795472 bytes in length
+
+ Performance counter stats for './xz_peak cpu2006docs.tar.xz 6643 055ce243071129412e9dd0b3b69a21654033a9b723d874b2015c774fac1553d9713be561ca86f74e4f16f22e664fc17a79f30caa5ad2c04fbc447549c2810fae 1036078272 11795472 4':
+
+     3311119367861      cycles                                                             
+     4905339132461      instructions                     #    1.48  insn per cycle         
+
+     219.396952890 seconds time elapsed
+
+    1649.973550000 seconds user
+       8.126687000 seconds sys
+
+
+---------------------------------
+Threads: 64
+work available for up to 6965690368 / 13631488 => 512 threads
+context size per thread: 13312 KB
+Compressed data 1111795472 bytes in length
+
+ Performance counter stats for './xz_peak cpu2006docs.tar.xz 6643 055ce243071129412e9dd0b3b69a21654033a9b723d874b2015c774fac1553d9713be561ca86f74e4f16f22e664fc17a79f30caa5ad2c04fbc447549c2810fae 1036078272 11795472 4':
+
+     3359043011349      cycles                                                             
+     4905713958323      instructions                     #    1.46  insn per cycle         
+
+     194.574007060 seconds time elapsed
+
+    1671.646664000 seconds user
+      10.724142000 seconds sys
+
+
+---------------------------------
+Threads: 128
+work available for up to 6965690368 / 13631488 => 512 threads
+context size per thread: 13312 KB
+Compressed data 1111795472 bytes in length
+
+ Performance counter stats for './xz_peak cpu2006docs.tar.xz 6643 055ce243071129412e9dd0b3b69a21654033a9b723d874b2015c774fac1553d9713be561ca86f74e4f16f22e664fc17a79f30caa5ad2c04fbc447549c2810fae 1036078272 11795472 4':
+
+     4497840226371      cycles                                                             
+     4907375344515      instructions                     #    1.09  insn per cycle         
+
+     186.871185310 seconds time elapsed
+
+    2237.529551000 seconds user
+      16.335923000 seconds sys
+
+
+---------------------------------
